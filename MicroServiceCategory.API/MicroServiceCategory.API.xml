@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MicroServiceCategory.API</name>
+    </assembly>
+    <members>
+        <member name="M:MicroServiceCategory.API.Controllers.v1.CategoryController.List">
+            <summary>
+            List all categories
+            </summary>
+        </member>
+        <member name="M:MicroServiceCategory.API.Controllers.v1.CategoryController.Get(System.Int64)">
+            <summary>
+            Get single category by identifier
+            </summary>
+            <param name="id">Category identifier</param>
+        </member>
+        <member name="M:MicroServiceCategory.API.Controllers.v1.CategoryController.Post(System.String)">
+            <summary>
+            Create a category
+            </summary>
+            <param name="name">Category name</param>
+        </member>
+        <member name="M:MicroServiceCategory.API.Controllers.v1.CategoryController.Put(System.Int64,System.String)">
+            <summary>
+            Update a category
+            </summary>
+            <param name="id">Category identifier</param>
+            <param name="name">Category name</param>
+        </member>
+        <member name="M:MicroServiceCategory.API.Controllers.v1.CategoryController.Delete(System.Int64)">
+            <summary>
+            Delete a category
+            </summary>
+            <param name="id">Category identifier</param>
+        </member>
+        <member name="T:MicroServiceCategory.API.Models.Category">
+            <summary>
+            Category
+            </summary>
+        </member>
+        <member name="P:MicroServiceCategory.API.Models.Category.Id">
+            <summary>
+            Category identifier
+            </summary>
+        </member>
+        <member name="P:MicroServiceCategory.API.Models.Category.Name">
+            <summary>
+            Category Name
+            </summary>
+        </member>
+    </members>
+</doc>
